@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="icon" href="/Poster-A4-21x29.7-cm.png">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<title>Portfolio.</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" >
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+</head>
+<body>
+    
+
+<!-- header -->
+
+<header>
+    <div class="loader "></div>
+    <a href="#" class="logo">Cod<span>e</span>r.</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+
+    <div class="bx bx-menu " id="menu-icon"></div>
+</header>
+
+<!-- home -->
+
+<section class="home" id="home">
+    <div class="home-text">
+        <div class="slide">
+            <span class="one">Hello</span>
+                <span class="two">It's me<span>,</span></span>
+        </div>
+        <h1>Muhammed Faizal</h1>
+            <h1>I'm a <span class="textnow"></span></h1>
+                <p>Web Developer with 1 year experience that keep customers<br>
+                    coming back for about services makes best effort.</p>
+                        <div class="button">
+                            <a href="#contact" class="btn" onclick="press()">Hire me</a>
+                            <a href="portfolio.html" class="btn2"><span><i class='bx bx-play'></i></span>Watch My Work.</a>
+                        </div>
+                    </div>
+    <div id="emoji" style='font-size:90px;'></div>
+</section>
+
+<!-- about -->
+
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="profile1.avif" width="380px" height="600px" alt="">
+    </div>
+
+    <div class="about-text">
+        <h2>About<span> Me.</span></h2>
+            <h4>Creative Moblie App Developer!</h4>
+                 <p>Hello, I'm Muhammed Faizal, a recent graduate with a passion for Flutter(Moblie App) development.
+                    Seeking a beginner role to enhance and explore my technical knowledge gained at Brototype in the last one year
+                    and I also know the frontend web development using HTML, CSS, Bootstrap and Javascript.
+                      Although I'm new to the industry, I've been working hard to develop my skills and gain experience.</p>
+                <a href="moreabout.html" class="btn">More About Me</a>
+            </div>
+        </section>
+
+<!-- service -->
+
+<section class="services" id="services">
+    <div class="main-text">
+        <p>What I am Expert In</p>
+            <h2><span>My </span>Services</h2>
+        </div>
+    <div>
+
+        <div class="services-content">
+           <div class="box">
+                <div>
+                    <i class='bx bxs-devices'></i>
+                </div>
+                    <h2>Web Designing</h2>
+                        <p>
+                            Our website ensures cross-device friendliness, delivering an optimal user interfaces & experience across screens of all sizes.</p>
+                        <a href="services.html" class="read">Read More</a>
+                    </div>
+           
+           <div class="box">
+                <div>
+                <i class='bx bx-brain'></i>
+            </div>
+            <h2>Creative Design</h2>
+                <p>A well-designed, eye-catching, & creative website shares business strategies, enhances brand image, & engages the audience.</p>
+                <a href="services2.html" class="read">Read More</a>
+           </div>
+
+           <div class="box">
+                <div>
+                    <i class='bx bxs-pie-chart-alt-2'></i>
+            </div>
+            <h2>Web Development</h2>
+                <p>Our user-centric web apps are feature-rich, intuitive, and highly performant, amplifying user engagement & user's satisfaction..</p>
+                <a href="services3.html" class="read">Read More</a>
+           </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- portfolio -->
+
+<section class="portfolio" id="portfolio">
+    <div class="main-text">
+        <p>Portfolio</p>
+            <h2>Recent <span>Projects</span></h2>
+    </div>
+        <p id="p2" style="text-align: center; padding-top: 15px;">Check out 3 Best Design's updates for the top web design &
+         development companies.</p>
+
+    <div class="portfolio-content">
+        <div class="row">
+            <img src="image1.avif" width="300px" height="300px" alt="">
+                <div class="layer">
+                    <h5>Bugatti Clone Website</h5>
+                        <p>This is a Clone Homepage of <span>Bugatti</span> and It is a 
+                            static Webpage only with HTML and CSS.</p>
+                    </div>
+                </div>
+
+        <div class="row">
+            <img src="image2.avif"  width="300px" height="300px" alt="">
+                <div class="layer">
+                    <h5>Netflix Clone Website</h5>
+                        <p>This is a Clone of <span>Netflix.</span> This is a fully Responsible 
+                            Homepage with using HTML, CSS and @mediaquery</p>
+                </div>
+            </div>
+
+        <div class="row">
+            <img src="image3.avif"  width="300px" height="300px" alt="">
+                <div class="layer">
+                    <h5>Responsive Website</h5>
+                        <p>I create a Webpage <span>BUILDCO.</span> This is Fully Responsible Website using HTML, CSS, Bootstrap and @mediaquery.</p>
+                </div>
+            </div>
+        </div>
+        <a href="portfolio.html" class="btn" style="border-radius: 30vh; display: block; margin: 5% auto 0px auto; width: 15vh; text-align: center;">View Projects</a>
+    </section>
+
+<!-- skills -->
+
+<section class="skills" id="skills">
+    <div class="skills-text">
+        <h2>I'm Experts <span>On</span>,</h2>
+            <h3>HTML, CSS, Javascript, Bootstrap, C, Java.</h3>
+     <div class="container">
+        <div class="skill-box">
+            <span class="title">HTML</span>
+
+            <div class="skill-bar">
+                <span class="skill-per html">
+                    <span class="tooltip">90%</span>
+                </span>
+            </div>
+        </div>
+        
+        <div class="skill-box">
+            <span class="title">CSS</span>
+
+            <div class="skill-bar">
+                <span class="skill-per css">
+                    <span class="tooltip">60%</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title">Javascript</span>
+
+            <div class="skill-bar">
+                <span class="skill-per javascript">
+                    <span class="tooltip">40%</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title">Bootstrap</span>
+
+            <div class="skill-bar">
+                <span class="skill-per bootstrap">
+                    <span class="tooltip">70%</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title">C</span>
+
+            <div class="skill-bar">
+                <span class="skill-per c">
+                    <span class="tooltip">30%</span>
+                </span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title">Java</span>
+
+            <div class="skill-bar">
+                <span class="skill-per java">
+                    <span class="tooltip">40%</span>
+                </span>
+            </div>
+        </div>
+
+        
+        </div>
+    </div>
+</section>
+
+<!-- contact -->
+
+<section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact <span>Me.</span></h2>
+            <h4>If You Have Any Project In Your Mind.</h4>
+                <p>I'm a UI/UX Designer - Creating bold & brave interface design for companies all accross the World.</p>
+                    <div class="list">
+                        <li>Email :<a href="mailto:faizal404@gmail.com">faizaldev404@gmail.com</a></li>
+                        <li>Phone :<a href="tel:+918075374600">(+91)8075374600</a></li>
+                        <li><a href="#"></a></li>
+                    </div>
+
+        <div class="contact-icons">
+            <h4>Follow me :</h4>
+                <a href="https://www.facebook.com/faizal.fayas.12"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/cruiser_400/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/muhammed-faizal-971737276/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://twitter.com/home"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+
+    <div class="contact-form" id="error">
+        <form action="" id="submit-form">
+            
+            <span id="name-error"></span>
+                <input type="text" placeholder="Enter Name" name="name" id="contact-name" onkeyup="ValidateName()">
+            
+            <span id="email-error"></span>
+                <input id="contact-email" type="email" name="email" placeholder="Enter Email" onkeyup="ValidateEmail()">
+
+            <span id="phone-error"></span>
+                <input id="contact-phone" type="number" name="phone" placeholder="Enter Mobile Number" onkeyup="ValidatePhone()">
+            
+            <span id="message-error"></span>
+                <textarea id="contact-message" cols="30" name="Message" rows="10" placeholder="How Can I Assist You ?" onkeyup="ValidateMessage()"></textarea>
+
+            <input type="submit" value="Send Message" class="submit" onclick="return ValidateForm()">
+                <span id="submit-error"></span>
+        </form>
+    </div>
+   
+</section>
+
+<!-- footer -->
+
+<section class="end">
+    <div class="last-text">
+        <p>Copyright &#xa9; 2023 by Muhammed Faizal All Rights Reserved.</p>
+    </div>
+
+    <div class="top">
+        <a href="#home"><i class='bx bxs-arrow-to-top' ></i></a>
+    </div>
+</section>
+   
+<script>
+    $("#submit-form").submit((e)=>{
+    e.preventDefault()
+    $.ajax({
+        url:"https://script.google.com/macros/s/AKfycbw2TBVOKBxlsg3w1o8cvSCRNyoHS0yqv-oVLn0x0k29Rx34IIRzrJNaMdRFTPh0gsv_/exec",
+        data:$("#submit-form").serialize(),
+        method:"post",
+        success:function (response){
+            alert("Form submitted successfully");
+            window.location.reload();
+        },
+        error:function (err){
+            alert("Something Error");
+
+        }
+    })
+})
+</script>
+
+
+<script src="script.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
